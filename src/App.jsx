@@ -1,5 +1,6 @@
 // CIT12 Group
 // Members: Aske. Jeffrey. Nicolai, Wanesa
+// Requires the TMDB API key in a .env file in the project root
 
 import { useState, useEffect } from 'react';
 
