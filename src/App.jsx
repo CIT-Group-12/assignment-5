@@ -1,3 +1,6 @@
+// CIT12 Group
+// Members: Aske. Jeffrey. Nicolai, Wanesa
+
 import { useState, useEffect } from 'react';
 
 function KnownFor({movie}) {
