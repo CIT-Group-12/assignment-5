@@ -65,7 +65,6 @@ function App() {
 
   return (
     <div>
-      {/* {persons.map((p) => <Person person={ p } />)} */}
       {persons.length > 0 && <Person person={persons[pageIndex]} />}
       <button onClick={() => setPageIndex(pageIndex-1)} style={{marginRight:'10px'}} disabled={pageIndex === 0}>Previous</button>
       <button onClick={() => setPageIndex(pageIndex+1)} disabled={pageIndex >= persons.length - 1}>Next</button>   
